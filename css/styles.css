@@ -1,0 +1,45 @@
+.wrapper {
+  background-color: #4d5057;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.slider-item {
+  height: 50vh;
+
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-item.green {
+  background-color: rgb(73, 140, 73);
+}
+
+.slider-item.red {
+  background-color: rgb(127, 22, 22);
+}
+
+.slider-item.blue {
+  background-color: rgb(16, 16, 142);
+}
+
+.slider-item.tomato {
+  background-color: tomato;
+}
+
+.slider-item.teal {
+  background-color: rgb(12, 92, 92);
+}
+
+.slider-item.purple {
+  background-color: rgb(68, 6, 68);
+}
